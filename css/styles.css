@@ -23,7 +23,7 @@ body {
   font-family: 'Karla', sans-serif;
   font-weight: var(--font-weight);
   font-size: var(--font-size);
-  margin: 15;
+  margin: 15px;
   background-color: var(--primary-color);
   text-align: center;
   table-layout: inherit;
@@ -49,6 +49,9 @@ body {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .main-navigation {
+
+    }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid-container {
@@ -82,13 +85,6 @@ h3 {
 
 @keyframes color-change {
 0% {
-  fill: #edc655;
-}
-50% {
-  fill: #fcffad;
-}
-100% {
-  fill: #f76414;
 }
 }
 
@@ -186,24 +182,24 @@ li {
 a {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-size: 55;
+  font-size: 55px;
 }
 
 a:hover{
   cursor: pointer;
   color: var(--active-link-color);
   text-decoration: none;
-  font-size: 55;
+  font-size: 55px;
 }
 
   a:visited {
     text-decoration: none;
-    font-size: 55;
+    font-size: 55px;
   }
 
   a:active {
     text-decoration: none;
-    font-size: 55;
+    font-size: 55px;
   }
 
 .logo {
@@ -238,7 +234,6 @@ a:hover{
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
-  transition: 0.4s opacity, 0.5s background-color, 0.4s font-size;
 }
 
 .button:hover {
@@ -250,7 +245,6 @@ a:hover{
 .button:focus {
   cursor: pointer;
   background-color: var(--primary-color);
-  color: #000000;
 }
 
 .button:active {
